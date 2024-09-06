@@ -1,9 +1,11 @@
-import { Navbar } from "@/components"
-
+import { Button, Navbar } from '@/components'
 
 const Home = () => {
 	return (
-		<Navbar/>
+		<div>
+			<Navbar />
+			<Button />
+		</div>
 	)
 }
 
