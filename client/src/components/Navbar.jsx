@@ -39,7 +39,7 @@ const Navbar = () => {
 					</NavigationMenu>
 				</div>
 				<div>
-					<Input className="sm:w-full w-36" type="search" placeholder="Search" />
+					<Input className="sm:w-full w-56" type="search" placeholder="Search" />
 				</div>
 			</div>
 		</nav>
