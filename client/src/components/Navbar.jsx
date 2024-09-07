@@ -33,7 +33,7 @@ const Navbar = () => {
 							<div className="sm:hidden flex text-gray-300 text-xl gap-5">
 								<FaHome />
 								<IoPeopleSharp />
-								<MdLocalPhone className='sm:pr-0 pr-8' />
+								<MdLocalPhone className='sm:mr-0 mr-3' />
 							</div>
 						</NavigationMenuList>
 					</NavigationMenu>
