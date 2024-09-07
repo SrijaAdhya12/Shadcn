@@ -19,7 +19,7 @@ const Navbar = () => {
 			<div className="flex items-center justify-between w-full">
 				<div className="flex items-center gap-4">
 					<NavigationMenu>
-						<NavigationMenuList className="flex items-center space-x-12 sm:space-x-[580px]">
+						<NavigationMenuList className="flex items-center space-x-24 sm:space-x-[580px]">
 							<div>
 								<NavigationMenuItem>
 									<img src={Logo} alt="Logo" className="h-8 w-8" />
@@ -39,7 +39,7 @@ const Navbar = () => {
 					</NavigationMenu>
 				</div>
 				<div>
-					<Input type="search" placeholder="Search" />
+					<Input className="sm:w-full w-36" type="search" placeholder="Search" />
 				</div>
 			</div>
 		</nav>
