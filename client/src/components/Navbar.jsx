@@ -15,7 +15,7 @@ import { MdLocalPhone } from 'react-icons/md'
 import { IoPeopleSharp } from 'react-icons/io5'
 const Navbar = () => {
 	return (
-		<nav className="border flex items-center h-20 px-8 sm:px-20 sticky top-0 z-50 py-3 backdrop-blur-md border-neutral-700/80">
+		<nav className="border flex items-center h-20 px-5 sm:px-20 sticky top-0 z-50 py-3 backdrop-blur-md border-neutral-700/80">
 			<div className="flex items-center justify-between w-full">
 				<div className="flex items-center gap-4">
 					<NavigationMenu>
