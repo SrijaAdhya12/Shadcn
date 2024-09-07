@@ -19,7 +19,7 @@ const Navbar = () => {
 			<div className="flex items-center justify-between w-full">
 				<div className="flex items-center gap-4">
 					<NavigationMenu>
-						<NavigationMenuList className="flex items-center space-x-5 sm:space-x-[580px]">
+						<NavigationMenuList className="flex items-center space-x-4 sm:space-x-[580px]">
 							<div>
 								<NavigationMenuItem>
 									<img src={Logo} alt="Logo" className="h-8 w-8" />
