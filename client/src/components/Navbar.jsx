@@ -15,7 +15,7 @@ import { MdLocalPhone } from 'react-icons/md'
 import { IoPeopleSharp } from 'react-icons/io5'
 const Navbar = () => {
 	return (
-		<nav className="border flex items-center h-20 px-5 sm:px-20 sticky top-0 z-50 py-3 backdrop-blur-md border-neutral-700/80">
+		<nav className="border flex items-center sm:h-20 px-5 sm:px-20 sticky top-0 z-50 py-3 backdrop-blur-md border-neutral-700/80">
 			<div className="flex items-center justify-between w-full">
 				<div className="flex items-center gap-4">
 					<NavigationMenu>
@@ -30,6 +30,7 @@ const Navbar = () => {
 								<NavigationMenuItem>About Us</NavigationMenuItem>
 								<NavigationMenuItem>Contact Us</NavigationMenuItem>
 							</div>
+								<Input className="sm:hidden xs:flex w-80" type="search" placeholder="Search" />
 							<div className="sm:hidden flex text-gray-300 text-lg gap-4">
 								<FaHome />
 								<IoPeopleSharp />
@@ -37,9 +38,6 @@ const Navbar = () => {
 							</div>
 						</NavigationMenuList>
 					</NavigationMenu>
-				</div>
-				<div>
-					<Input className="sm:w-full w-60" type="search" placeholder="Search" />
 				</div>
 			</div>
 		</nav>
