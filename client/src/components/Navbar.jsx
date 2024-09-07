@@ -38,7 +38,7 @@ const Navbar = () => {
 						</NavigationMenuList>
 					</NavigationMenu>
 				</div>
-				<div>
+				<div className='sm:mx-0 mx-5'>
 					<Input type="search" placeholder="Search" />
 				</div>
 			</div>
