@@ -30,7 +30,7 @@ const Navbar = () => {
 								<NavigationMenuItem>About Us</NavigationMenuItem>
 								<NavigationMenuItem>Contact Us</NavigationMenuItem>
 							</div>
-								<Input className="sm:hidden xs:flex w-80" type="search" placeholder="Search" />
+							<Input className="sm:hidden xs:flex w-72" type="search" placeholder="Search" />
 							<div className="sm:hidden flex text-gray-300 text-lg gap-4">
 								<FaHome />
 								<IoPeopleSharp />
