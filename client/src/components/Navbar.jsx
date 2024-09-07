@@ -33,12 +33,12 @@ const Navbar = () => {
 							<div className="sm:hidden flex text-gray-300 text-xl gap-5">
 								<FaHome />
 								<IoPeopleSharp />
-								<MdLocalPhone />
+								<MdLocalPhone className='sm:pr-0 pr-8' />
 							</div>
 						</NavigationMenuList>
 					</NavigationMenu>
 				</div>
-				<div className='sm:mx-0 mx-5'>
+				<div>
 					<Input type="search" placeholder="Search" />
 				</div>
 			</div>
